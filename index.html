@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 class="titulo">Ejercicios JS</h1>
+    <div class="ejercicio">
+      <p>Ejercicio 1: Saludo Personalizado</p>
+      <p>Pide al usuario su nombre y edad</p>
+      <p>Muestra un mensaje personalizado usando ambos datos</p>
+      <form id="formEjercicio1">
+        <label>Nombre: <input type="text" id="nombre_1" required /></label><br />
+        <label>Edad: <input type="number" id="edad_1" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_1"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 2: Calculadora Simple</p>
+      <p>Pide dos números al usuario</p>
+      <p>Muestra la suma, resta, multiplicación y división de ambos</p>
+      <form id="formEjercicio2">
+        <label>Número 1: <input type="number" id="numero_1_2" required /></label><br />
+        <label>Número 2: <input type="number" id="numero_2_2" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_2"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 3: Lista de Compras</p>
+      <p>Crea un array vacío</p>
+      <p>Pide al usuario 3 productos y agrégalos al array</p>
+      <p>Muestra la lista completa en consola</p>
+      <form id="formEjercicio3">
+        <label>Producto 1: <input type="text" id="producto_1_3" required /></label><br />
+        <label>Producto 2: <input type="text" id="producto_2_3" required /></label><br />
+        <label>Producto 3: <input type="text" id="producto_3_3" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_3"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 4: Clasificador de Números</p>
+      <p>Crea un array con 5 números</p>
+      <p>Recorre el array y muestra si cada número es par o impar</p>
+      <form id="formEjercicio4">
+        <label>Número 1: <input type="number" id="numero_1_4" required /></label><br />
+        <label>Número 2: <input type="number" id="numero_2_4" required /></label><br />
+        <label>Número 3: <input type="number" id="numero_3_4" required /></label><br />
+        <label>Número 4: <input type="number" id="numero_4_4" required /></label><br />
+        <label>Número 5: <input type="number" id="numero_5_4" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_4"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 5: Promedio de Calificaciones</p>
+      <p>Pide al usuario 5 calificaciones y guárdalas en un array</p>
+      <p>Calcula y muestra el promedio</p>
+      <form id="formEjercicio5">
+        <label>Calificación 1: <input type="number" id="calificacion_1_5" required /></label><br />
+        <label>Calificación 2: <input type="number" id="calificacion_2_5" required /></label><br />
+        <label>Calificación 3: <input type="number" id="calificacion_3_5" required /></label><br />
+        <label>Calificación 4: <input type="number" id="calificacion_4_5" required /></label><br />
+        <label>Calificación 5: <input type="number" id="calificacion_5_5" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_5"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 6: Buscador en Array</p>
+      <p>Crea un array con varios nombres</p>
+      <p>Pide al usuario un nombre y verifica si está en el array</p>
+      <p>Muestra un mensaje indicando si se encontró o no</p>
+      <form id="formEjercicio6">
+        <label>Nombre: <input type="text" id="nombre_6" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_6"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 7: Contador de Vocales</p>
+      <p>Pide al usuario una palabra</p>
+      <p>Cuenta cuántas vocales tiene y muestra el resultado</p>
+      <form id="formEjercicio7">
+        <label>Palabra: <input type="text" id="palabra_7" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_7"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 8: Inversor de Texto</p>
+      <p>Pide al usuario una frase</p>
+      <p>Muestra la frase invertida (al revés)</p>
+      <form id="formEjercicio8">
+        <label>Frase: <input type="text" id="frase_8" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_8"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 9: Números Primos en un Rango</p>
+      <p>Pide al usuario dos números (inicio y fin)</p>
+      <p>Muestra todos los números primos en ese rango</p>
+      <form id="formEjercicio9">
+        <label>Número de inicio: <input type="number" id="inicio_9" required /></label><br />
+        <label>Número de fin: <input type="number" id="fin_9" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_9"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio 10: Juego de Adivinanza</p>
+      <p>Genera un número aleatorio entre 1 y 20</p>
+      <p>Pide al usuario que adivine el número</p>
+      <p>Da pistas si el número es mayor o menor hasta que acierte</p>
+      <form id="formEjercicio10">
+        <label>Adivina el número: <input type="number" id="adivinanza_10" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_10"></p>
+    </div>
+    <div class="ejercicio">
+      <p>Ejercicio Extra: Crea un archivo HTML con un script que:</p>
+      <p>Pida al usuario su nombre y 3 hobbies</p>
+      <p>Guarde los hobbies en un array</p>
+      <p>Muestre un mensaje en pantalla con el nombre y la lista de hobbies</p>
+      <form id="formEjercicioExtra">
+        <label>Nombre: <input type="text" id="nombre_extra" required /></label><br />
+        <label>Hobby 1: <input type="text" id="hobby_1_extra" required /></label><br />
+        <label>Hobby 2: <input type="text" id="hobby_2_extra" required /></label><br />
+        <label>Hobby 3: <input type="text" id="hobby_3_extra" required /></label><br />
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje_extra"></p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
