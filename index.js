@@ -10,7 +10,7 @@ const formEjercicio9 = document.getElementById("formEjercicio9");
 const formEjercicio10 = document.getElementById("formEjercicio10");
 const formEjercicioExtra = document.getElementById("formEjercicioExtra");
 
-formEjercicio1.addEventListener("submit", (e) =>{
+formEjercicio1.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const nombre = formEjercicio1.querySelector("#nombre_1").value;
@@ -163,12 +163,13 @@ formEjercicio8.addEventListener("submit", (e) => {
   //console.log("frase", frase);
 
   let fraseInvertida = "";
-
   for (let i = frase.length - 1; i >= 0; i--) {
     fraseInvertida += frase[i];
   }
 
-  document.getElementById("mensaje_8").textContent = `Frase invertida: ${fraseInvertida}`;
+  let fraseInvertida2 = frase.split("").reverse().join("");
+
+  document.getElementById("mensaje_8").textContent = `Frase invertida: ${fraseInvertida2}`;
 });
 
 formEjercicio9.addEventListener("submit", (e) => {
