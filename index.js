@@ -10,7 +10,7 @@ const formEjercicio9 = document.getElementById("formEjercicio9");
 const formEjercicio10 = document.getElementById("formEjercicio10");
 const formEjercicioExtra = document.getElementById("formEjercicioExtra");
 
-formEjercicio1.addEventListener("submit", function (e) {
+formEjercicio1.addEventListener("submit", (e) =>{
   e.preventDefault();
 
   const nombre = formEjercicio1.querySelector("#nombre_1").value;
@@ -27,7 +27,7 @@ formEjercicio1.addEventListener("submit", function (e) {
   document.getElementById("mensaje_1").textContent = texto;
 });
 
-formEjercicio2.addEventListener("submit", function (e) {
+formEjercicio2.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const numero1 = parseFloat(formEjercicio2.querySelector("#numero_1_2").value);
@@ -48,7 +48,7 @@ formEjercicio2.addEventListener("submit", function (e) {
   document.getElementById("mensaje_2").textContent = texto;
 });
 
-formEjercicio3.addEventListener("submit", function (e) {
+formEjercicio3.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const producto1 = formEjercicio3.querySelector("#producto_1_3").value;
@@ -63,7 +63,7 @@ formEjercicio3.addEventListener("submit", function (e) {
   document.getElementById("mensaje_3").textContent = texto;
 });
 
-formEjercicio4.addEventListener("submit", function (e) {
+formEjercicio4.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const numero1 = formEjercicio4.querySelector("#numero_1_4").value;
@@ -87,7 +87,7 @@ formEjercicio4.addEventListener("submit", function (e) {
   document.getElementById("mensaje_4").textContent = texto;
 });
 
-formEjercicio5.addEventListener("submit", function (e) {
+formEjercicio5.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const calificacion1 = parseFloat(formEjercicio5.querySelector("#calificacion_1_5").value);
@@ -111,7 +111,7 @@ formEjercicio5.addEventListener("submit", function (e) {
   document.getElementById("mensaje_5").textContent = `Promedio: ${promedio}`;
 });
 
-formEjercicio6.addEventListener("submit", function (e) {
+formEjercicio6.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const nombre = formEjercicio6.querySelector("#nombre_6").value;
@@ -140,7 +140,7 @@ formEjercicio6.addEventListener("submit", function (e) {
   }
 });
 
-formEjercicio7.addEventListener("submit", function (e) {
+formEjercicio7.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const palabra = formEjercicio7.querySelector("#palabra_7").value;
@@ -156,7 +156,7 @@ formEjercicio7.addEventListener("submit", function (e) {
   document.getElementById("mensaje_7").textContent = `Cantidad de vocales en la palabra: ${cantidadVocales}`;
 });
 
-formEjercicio8.addEventListener("submit", function (e) {
+formEjercicio8.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const frase = formEjercicio8.querySelector("#frase_8").value;
@@ -171,7 +171,7 @@ formEjercicio8.addEventListener("submit", function (e) {
   document.getElementById("mensaje_8").textContent = `Frase invertida: ${fraseInvertida}`;
 });
 
-formEjercicio9.addEventListener("submit", function (e) {
+formEjercicio9.addEventListener("submit", (e) => {
   e.preventDefault();
 
   function esPrimo(numero) {
@@ -202,7 +202,7 @@ formEjercicio9.addEventListener("submit", function (e) {
   ).textContent = `Los numeros primos entre los numeros parámetro son: ${arrayPrimos.join(", ")}`;
 });
 
-formEjercicio10.addEventListener("submit", function (e) {
+formEjercicio10.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const numero = formEjercicio10.querySelector("#adivinanza_10").value;
@@ -221,7 +221,7 @@ formEjercicio10.addEventListener("submit", function (e) {
   document.getElementById("mensaje_10").textContent = texto;
 });
 
-formEjercicioExtra.addEventListener("submit", function (e) {
+formEjercicioExtra.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const nombre = formEjercicioExtra.querySelector("#nombre_extra").value;
