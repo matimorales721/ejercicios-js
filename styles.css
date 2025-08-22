@@ -28,6 +28,15 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.ejercicio-bucles-y-funciones {
+    background-color: rgb(177, 241, 177);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.5em 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
