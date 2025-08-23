@@ -14,3 +14,6 @@ for (let i = 0; i < acordeon.length; i++) {
     }
   });
 }
+
+let acordeon16 = document.getElementById("clase16");
+acordeon16.click();
