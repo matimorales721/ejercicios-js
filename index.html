@@ -151,7 +151,7 @@
       </div>
     </div>
 
-    <button class="accordion" id="clase16">Clase 16: Clase de Ejercitación – Funciones y Ciclos</button>
+    <button class="accordion" id="clase-16">Clase 16: Clase de Ejercitación – Funciones y Ciclos</button>
     <div class="panel">
       <div class="ejercicio-bucles-y-funciones">
         <h2>1. Tabla de multiplicar</h2>
@@ -458,6 +458,77 @@
       </div> -->
     </div>
 
+    <button class="accordion" id="clase-17">Clase 17: JS – DOM y Eventos</button>
+    <div class="panel">
+      <div class="ejercicio-clase-17">
+        <h2>Ejercicio 1: Modificación de Estilos</h2>
+        <p>
+          Crea una página con un párrafo y tres botones que permitan cambiar el color del texto, el tamaño de fuente y
+          el color de fondo.
+        </p>
+        <form id="formEjercicioClase17_1">
+          <button type="button" id="cambiarColorTexto-c17">Cambiar Color de Texto</button>
+          <button type="button" id="cambiarTamañoFuente-c17">Cambiar Tamaño de Fuente</button>
+          <button type="button" id="cambiarColorFondo-c17">Cambiar Color de Fondo</button>
+          <p class="parrafo-c17">
+            Ley de Murphy: “Anything that can go wrong will go wrong.” (Todo lo que pueda salir mal, saldrá mal).
+          </p>
+        </form>
+      </div>
+
+      <div class="ejercicio-clase-17">
+        <h2>Ejercicio 2: Lista de Tareas</h2>
+        Implementa una lista de tareas donde puedas:
+        <ul>
+          <li>Añadir nuevas tareas</li>
+          <li>Marcar tareas como completadas</li>
+          <li>Eliminar tareas</li>
+          <li>Filtrar tareas (todas, completadas, pendientes)</li>
+        </ul>
+        <form id="formEjercicioClase17_2">
+          <input type="text" id="nuevaTarea-c17" placeholder="Nueva tarea" />
+          <button type="button" id="agregarTarea-c17">Agregar Tarea</button>
+          <ul id="listaTareas-c17"></ul>
+        </form>
+      </div>
+
+      <div class="ejercicio-clase-17">
+        <h2>Ejercicio 3: Galería de Imágenes</h2>
+        Crea una galería de imágenes con:
+        <ul>
+          <li>Miniaturas que se muestren en fila</li>
+          <li>Una imagen principal que se actualice al hacer clic en las miniaturas</li>
+          <li>Botones de navegación (anterior/siguiente) (pendiente...)</li>
+        </ul>
+        <form id="formEjercicioClase17_3">
+          <div class="galeria-c17">
+            <div id="contenedorImagenPrincipal-c17">
+              <img id="imagenPrincipal-c17" src="./img/clase-17/gatito-1.png" alt="Imagen Principal" />
+            </div>
+            <div class="miniaturas-c17">
+              <img class="miniatura-c17" src="./img/clase-17/gatito-1.png" alt="Miniatura 1" />
+              <img class="miniatura-c17" src="./img/clase-17/gatito-2.png" alt="Miniatura 2" />
+              <img class="miniatura-c17" src="./img/clase-17/gatito-3.png" alt="Miniatura 3" />
+              <img class="miniatura-c17" src="./img/clase-17/gatito-4.png" alt="Miniatura 4" />
+              <img class="miniatura-c17" src="./img/clase-17/gatito-5.png" alt="Miniatura 5" />
+              <img class="miniatura-c17" src="./img/clase-17/gatito-6.png" alt="Miniatura 6" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="ejercicio-clase-17">
+        <h2>Proyecto: Reloj Digital</h2>
+        Crea un reloj digital que muestre la hora actual y se actualice cada segundo. Debe incluir:
+        <ul>
+          <li>Hora, minutos y segundos</li>
+          <li>Formato de 12/24 horas (con botón para cambiar)</li>
+          <li>Fecha actual</li>
+          <li>Estilos CSS atractivos</li>
+        </ul>
+        Pendiente...
+      </div>
+    </div>
+
     <script src="./js/index.js"></script>
     <script src="./js/clase-14/ejercicio1.js"></script>
     <script src="./js/clase-14/ejercicio2.js"></script>
@@ -485,5 +556,9 @@
     <script src="./js/clase-16/ejercicioBucles1.js"></script>
     <script src="./js/clase-16/ejercicioBucles2.js"></script>
     <script src="./js/clase-16/ejercicioBucles3.js"></script>
+
+    <script src="./js/clase-17/ejercicio1.js"></script>
+    <script src="./js/clase-17/ejercicio2.js"></script>
+    <script src="./js/clase-17/ejercicio3.js"></script>
   </body>
 </html>

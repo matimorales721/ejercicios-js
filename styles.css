@@ -37,6 +37,15 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.ejercicio-clase-17 {
+    background-color: rgb(250, 225, 255);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.5em 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
@@ -68,4 +77,23 @@ body {
   display: none;
   overflow: hidden;
   border: 1px solid #ccc;
+}
+
+.ejercicio-clase-17 .galeria-c17 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ejercicio-clase-17 #contenedorImagenPrincipal-c17 {
+    width: 100%;
+    text-align: center;
+}
+.ejercicio-clase-17 #imagenPrincipal-c17 {
+    height: 200px;
+    margin: 0 0 1em 0;
+}
+.ejercicio-clase-17 .miniatura-c17 {
+    height: 75px;
 }
