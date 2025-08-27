@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <button class="accordion titulo">Ejercicios JS</button>
+    <button class="accordion titulo">Clase 14: Clase Práctica JavaScript</button>
     <div class="panel">
       <div class="ejercicio">
         <h2>Ejercicio 1: Saludo Personalizado</h2>
@@ -151,178 +151,6 @@
       </div>
     </div>
 
-    <button class="accordion">Ejercicio bucles y arrays</button>
-    <div class="panel">
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 1:</h2>
-        <p>En un supermercado tenemos una maquina registradora que ingresa los productos que compra cada cliente.</p>
-        <p>
-          1) Hacer un programa que tome los productos que registra la maquina y los agregue a un array .(se puede
-          simular el ingreso de los productos por medio de un prompt).Tengamos en cuenta que esta funcion tiene que
-          funcionar tanto para un cliente que lleve 2 productos como para un cliente que lleve 50 productos.
-        </p>
-        <p>
-          2) Teniendo la siguiente lista de precios, hacer una segunda funcion que busque el precio de cada producto y
-          lo sume, mostrando en la consola la suma total a pagar.
-        </p>
-        <p>Querido usuario, esta es la Lista de Precios:</p>
-        <p>pan -> $300</p>
-        <p>cafe -> $380</p>
-        <p>aceite -> $47</p>
-        <p>leche -> $80</p>
-        <p>fideos -> $62</p>
-        <p>vinagre -> $50</p>
-        <p>galletitas -> $350</p>
-        <p>harina -> $51</p>
-        <p>shampoo -> $200</p>
-        <form id="formEjercicioBucles1">
-          <label>Ingrese un producto: <input type="text" id="producto_b1" /></label><br />
-          <button type="submit" class="enviar">Enviar</button>
-          <button type="submit" class="mostrar-total">Mostrar total</button>
-        </form>
-        <p id="mensaje_ejercicioBucle1"></p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 2:</h2>
-        <p>Dado el siguiente array de países, crear un programa que le pida al usuario ingresar un nombre de país.</p>
-        <p>Luego,la funcion deberá fijarse si el país ingresado se encuentra en la lista creada a continuacion</p>
-        <p>
-          En caso que se encuentre, devolver un alert que diga “Pais ya registrado, se elimina del registro” y sacarlo
-          de la lista.
-        </p>
-        <p>
-          En caso que no se encuentre en la lista, deberá devolver un alert que indique “Pais registrado” y agregue
-          dicho país a la lista.
-        </p>
-        <form id="formEjercicioBucles2">
-          <label>Ingrese un país: <input type="text" id="pais_b2" /></label><br />
-          <button type="submit">Enviar</button>
-        </form>
-        <p id="mensaje_ejercicioBucle2"></p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 3:</h2>
-        <p>Hacer un programa que tome una lista de números y encuentre el mas cercano al 0.</p>
-        <p>
-          Si dicho numero es un numero negativo devolver por consola el mensaje "El valor mas cercano al 0 es negativo y
-          es :" junto con el numero.
-        </p>
-        <p>
-          Si dicho numero es un numero positivo, devolver por consola el mensaje "El valor mas cercano al 0 es positivo
-          y es :" junto con el numero.
-        </p>
-        <p>
-          Si en la lista esta el numero 0 , devolver un alerta que indique “Tenemos en la lista el numero 0, por lo que
-          este seria el mas cercano a si mismo”
-        </p>
-        <p>
-          Si tenemos al numero mas cercano tanto como positivo como negativo, tomamos al mas cercano el positivo y
-          devolvemos el mensaje por consola para números positivos ("El valor mas cercano al 0 es positivo y es: " junto
-          con el numero.)
-        </p>
-        <form id="formEjercicioBucles3">
-          <label>Lista de numeros: <input type="text" id="listaNumeros_b3" /></label><br />
-          <button type="submit">Enviar</button>
-        </form>
-        <p id="mensaje_ejercicioBucle3"></p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 4:</h2>
-        <p>
-          Marcelo esta armando la lista para el super. Crear un bucle para que Marcelo pueda ingresar los productos que
-          necesite y muestre por consola la lista completa.
-        </p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 5:</h2>
-        <p>
-          Crear un array de colores( que en tenga entre otros colores el color “azul”), y por medio de un bucle hacer
-          que saque el color azul.Mostrar el resultado del array en consola.
-        </p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 6:</h2>
-        <p>Dada la siguiente lista:</p>
-        <p>let mascotas = ["perro", "gato", "peces"]</p>
-        <p>a. Agregar a “canario” al final de la lista.</p>
-        <p>b. Mostrar por consola el primer valor de la lista.</p>
-        <p>c. Mostrar por consola el largo de la lista actual.</p>
-        <p>d. Contestar la pregunta: ¿Qué indice tiene el ultimo valor de la lista?</p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 7:</h2>
-        <p>Dada la siguiente lista, hacer con un bucle que recorra todos los valores y devuelva la suma total</p>
-        <p>let numeros = [2,3,45,100,50]</p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio 8:</h2>
-        <p>Dada la siguiente lista:</p>
-        <p>let nombres = ["Juan", "Pedro", "Ana", "Maria", "Wally", "Sofia"]</p>
-        <p>a. Contestar la pregunta: ¿Cuál es el indice donde esta Wally?</p>
-        <p>b. Crear una funcion que recorra la lista y muestre por consola el indice de cada nombre.</p>
-        <p>
-          c. Crear una segunda funcion que recorra la lista y que me muestre por consola solamente el indice donde se
-          encuentra ubicado Wally.
-        </p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 1:</h2>
-        <p>
-          Marcelo esta armando la lista para el super. Crear un bucle para que Marcelo pueda ingresar los productos que
-          necesite y muestre por consola la lista completa.
-        </p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 2:</h2>
-        <p>
-          Crear un array de colores( que en tenga entre otros colores el color “azul”), y por medio de un bucle hacer
-          que saque el color azul.Mostrar el resultado del array en consola.
-        </p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 3:</h2>
-        <p>Dada la siguiente lista:</p>
-        <p>let mascotas = ["perro", "gato", "peces"]</p>
-        <p>a. Agregar a “canario” al final de la lista.</p>
-        <p>b. Mostrar por consola el primer valor de la lista.</p>
-        <p>c. Mostrar por consola el largo de la lista actual.</p>
-        <p>d. Contestar la pregunta: ¿Qué indice tiene el ultimo valor de la lista?</p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 4:</h2>
-        <p>Armar una lista de 5 nombres e imprimirlo por consola uno por uno usando un bucle.</p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 5:</h2>
-        <p>Dada la siguiente lista, hacer con un bucle que recorra todos los valores y devuelva la suma total</p>
-        <p>let numeros = [2,3,45,100,50]</p>
-      </div>
-
-      <div class="ejercicio-bucles-y-array">
-        <h2>Ejercicio Optativo 6:</h2>
-        <p>Dada la siguiente lista:</p>
-        <p>let nombres = ["Juan", "Pedro", "Ana", "Maria", "Wally", "Sofia"]</p>
-        <p>a. Contestar la pregunta: ¿Cuál es el indice donde esta Wally?</p>
-        <p>b. Crear una funcion que recorra la lista y muestre por consola el indice de cada nombre.</p>
-        <p>
-          c. Crear una segunda funcion que recorra la lista y que me muestre por consola solamente el indice donde se
-          encuentra ubicado Wally.
-        </p>
-      </div>
-    </div>
-
     <button class="accordion" id="clase16">Clase 16: Clase de Ejercitación – Funciones y Ciclos</button>
     <div class="panel">
       <div class="ejercicio-bucles-y-funciones">
@@ -458,32 +286,204 @@
       </div>
     </div>
 
+    <button class="accordion">Clase 16: Otros ejercicios de bucles y arrays</button>
+    <div class="panel">
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 1:</h2>
+        <p>En un supermercado tenemos una maquina registradora que ingresa los productos que compra cada cliente.</p>
+        <p>
+          1) Hacer un programa que tome los productos que registra la maquina y los agregue a un array .(se puede
+          simular el ingreso de los productos por medio de un prompt).Tengamos en cuenta que esta funcion tiene que
+          funcionar tanto para un cliente que lleve 2 productos como para un cliente que lleve 50 productos.
+        </p>
+        <p>
+          2) Teniendo la siguiente lista de precios, hacer una segunda funcion que busque el precio de cada producto y
+          lo sume, mostrando en la consola la suma total a pagar.
+        </p>
+        <p>Querido usuario, esta es la Lista de Precios:</p>
+        <p>pan -> $300</p>
+        <p>cafe -> $380</p>
+        <p>aceite -> $47</p>
+        <p>leche -> $80</p>
+        <p>fideos -> $62</p>
+        <p>vinagre -> $50</p>
+        <p>galletitas -> $350</p>
+        <p>harina -> $51</p>
+        <p>shampoo -> $200</p>
+        <form id="formEjercicioBucles1">
+          <label>Ingrese un producto: <input type="text" id="producto_b1" /></label><br />
+          <button type="submit" class="enviar">Enviar</button>
+          <button type="submit" class="mostrar-total">Mostrar total</button>
+        </form>
+        <p id="mensaje_ejercicioBucle1"></p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 2:</h2>
+        <p>Dado el siguiente array de países, crear un programa que le pida al usuario ingresar un nombre de país.</p>
+        <p>Luego,la funcion deberá fijarse si el país ingresado se encuentra en la lista creada a continuacion</p>
+        <p>
+          En caso que se encuentre, devolver un alert que diga “Pais ya registrado, se elimina del registro” y sacarlo
+          de la lista.
+        </p>
+        <p>
+          En caso que no se encuentre en la lista, deberá devolver un alert que indique “Pais registrado” y agregue
+          dicho país a la lista.
+        </p>
+        <form id="formEjercicioBucles2">
+          <label>Ingrese un país: <input type="text" id="pais_b2" /></label><br />
+          <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje_ejercicioBucle2"></p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 3:</h2>
+        <p>Hacer un programa que tome una lista de números y encuentre el mas cercano al 0.</p>
+        <p>
+          Si dicho numero es un numero negativo devolver por consola el mensaje "El valor mas cercano al 0 es negativo y
+          es :" junto con el numero.
+        </p>
+        <p>
+          Si dicho numero es un numero positivo, devolver por consola el mensaje "El valor mas cercano al 0 es positivo
+          y es :" junto con el numero.
+        </p>
+        <p>
+          Si en la lista esta el numero 0 , devolver un alerta que indique “Tenemos en la lista el numero 0, por lo que
+          este seria el mas cercano a si mismo”
+        </p>
+        <p>
+          Si tenemos al numero mas cercano tanto como positivo como negativo, tomamos al mas cercano el positivo y
+          devolvemos el mensaje por consola para números positivos ("El valor mas cercano al 0 es positivo y es: " junto
+          con el numero.)
+        </p>
+        <form id="formEjercicioBucles3">
+          <label>Lista de numeros: <input type="text" id="listaNumeros_b3" /></label><br />
+          <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje_ejercicioBucle3"></p>
+      </div>
+
+      <!-- <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 4:</h2>
+        <p>
+          Marcelo esta armando la lista para el super. Crear un bucle para que Marcelo pueda ingresar los productos que
+          necesite y muestre por consola la lista completa.
+        </p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 5:</h2>
+        <p>
+          Crear un array de colores( que en tenga entre otros colores el color “azul”), y por medio de un bucle hacer
+          que saque el color azul.Mostrar el resultado del array en consola.
+        </p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 6:</h2>
+        <p>Dada la siguiente lista:</p>
+        <p>let mascotas = ["perro", "gato", "peces"]</p>
+        <p>a. Agregar a “canario” al final de la lista.</p>
+        <p>b. Mostrar por consola el primer valor de la lista.</p>
+        <p>c. Mostrar por consola el largo de la lista actual.</p>
+        <p>d. Contestar la pregunta: ¿Qué indice tiene el ultimo valor de la lista?</p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 7:</h2>
+        <p>Dada la siguiente lista, hacer con un bucle que recorra todos los valores y devuelva la suma total</p>
+        <p>let numeros = [2,3,45,100,50]</p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio 8:</h2>
+        <p>Dada la siguiente lista:</p>
+        <p>let nombres = ["Juan", "Pedro", "Ana", "Maria", "Wally", "Sofia"]</p>
+        <p>a. Contestar la pregunta: ¿Cuál es el indice donde esta Wally?</p>
+        <p>b. Crear una funcion que recorra la lista y muestre por consola el indice de cada nombre.</p>
+        <p>
+          c. Crear una segunda funcion que recorra la lista y que me muestre por consola solamente el indice donde se
+          encuentra ubicado Wally.
+        </p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 1:</h2>
+        <p>
+          Marcelo esta armando la lista para el super. Crear un bucle para que Marcelo pueda ingresar los productos que
+          necesite y muestre por consola la lista completa.
+        </p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 2:</h2>
+        <p>
+          Crear un array de colores( que en tenga entre otros colores el color “azul”), y por medio de un bucle hacer
+          que saque el color azul.Mostrar el resultado del array en consola.
+        </p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 3:</h2>
+        <p>Dada la siguiente lista:</p>
+        <p>let mascotas = ["perro", "gato", "peces"]</p>
+        <p>a. Agregar a “canario” al final de la lista.</p>
+        <p>b. Mostrar por consola el primer valor de la lista.</p>
+        <p>c. Mostrar por consola el largo de la lista actual.</p>
+        <p>d. Contestar la pregunta: ¿Qué indice tiene el ultimo valor de la lista?</p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 4:</h2>
+        <p>Armar una lista de 5 nombres e imprimirlo por consola uno por uno usando un bucle.</p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 5:</h2>
+        <p>Dada la siguiente lista, hacer con un bucle que recorra todos los valores y devuelva la suma total</p>
+        <p>let numeros = [2,3,45,100,50]</p>
+      </div>
+
+      <div class="ejercicio-bucles-y-array">
+        <h2>Ejercicio Optativo 6:</h2>
+        <p>Dada la siguiente lista:</p>
+        <p>let nombres = ["Juan", "Pedro", "Ana", "Maria", "Wally", "Sofia"]</p>
+        <p>a. Contestar la pregunta: ¿Cuál es el indice donde esta Wally?</p>
+        <p>b. Crear una funcion que recorra la lista y muestre por consola el indice de cada nombre.</p>
+        <p>
+          c. Crear una segunda funcion que recorra la lista y que me muestre por consola solamente el indice donde se
+          encuentra ubicado Wally.
+        </p>
+      </div> -->
+    </div>
+
     <script src="./js/index.js"></script>
-    <script src="./js/ejercicio1.js"></script>
-    <script src="./js/ejercicio2.js"></script>
-    <script src="./js/ejercicio3.js"></script>
-    <script src="./js/ejercicio4.js"></script>
-    <script src="./js/ejercicio5.js"></script>
-    <script src="./js/ejercicio6.js"></script>
-    <script src="./js/ejercicio7.js"></script>
-    <script src="./js/ejercicio8.js"></script>
-    <script src="./js/ejercicio9.js"></script>
-    <script src="./js/ejercicio10.js"></script>
-    <script src="./js/ejercicioExtra.js"></script>
+    <script src="./js/clase-14/ejercicio1.js"></script>
+    <script src="./js/clase-14/ejercicio2.js"></script>
+    <script src="./js/clase-14/ejercicio3.js"></script>
+    <script src="./js/clase-14/ejercicio4.js"></script>
+    <script src="./js/clase-14/ejercicio5.js"></script>
+    <script src="./js/clase-14/ejercicio6.js"></script>
+    <script src="./js/clase-14/ejercicio7.js"></script>
+    <script src="./js/clase-14/ejercicio8.js"></script>
+    <script src="./js/clase-14/ejercicio9.js"></script>
+    <script src="./js/clase-14/ejercicio10.js"></script>
+    <script src="./js/clase-14/ejercicioExtra.js"></script>
 
-    <script src="./js/ejerBucles1.js"></script>
-    <script src="./js/ejerBucles2.js"></script>
-    <script src="./js/ejerBucles3.js"></script>
+    <script src="./js/clase-16/ejercicio1.js"></script>
+    <script src="./js/clase-16/ejercicio2.js"></script>
+    <script src="./js/clase-16/ejercicio3.js"></script>
+    <script src="./js/clase-16/ejercicio4.js"></script>
+    <script src="./js/clase-16/ejercicio5.js"></script>
+    <script src="./js/clase-16/ejercicio6.js"></script>
+    <script src="./js/clase-16/ejercicio7.js"></script>
+    <script src="./js/clase-16/ejercicio8.js"></script>
+    <script src="./js/clase-16/ejercicio9.js"></script>
+    <script src="./js/clase-16/ejercicio10.js"></script>
 
-    <script src="./js/ejerBuclesFunciones1.js"></script>
-    <script src="./js/ejerBuclesFunciones2.js"></script>
-    <script src="./js/ejerBuclesFunciones3.js"></script>
-    <script src="./js/ejerBuclesFunciones4.js"></script>
-    <script src="./js/ejerBuclesFunciones5.js"></script>
-    <script src="./js/ejerBuclesFunciones6.js"></script>
-    <script src="./js/ejerBuclesFunciones7.js"></script>
-    <script src="./js/ejerBuclesFunciones8.js"></script>
-    <script src="./js/ejerBuclesFunciones9.js"></script>
-    <script src="./js/ejerBuclesFunciones10.js"></script>
+    <script src="./js/clase-16/ejercicioBucles1.js"></script>
+    <script src="./js/clase-16/ejercicioBucles2.js"></script>
+    <script src="./js/clase-16/ejercicioBucles3.js"></script>
   </body>
 </html>
