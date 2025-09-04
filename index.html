@@ -539,6 +539,80 @@
       </div>
     </div>
 
+    <button class="accordion" id="clase-18">Clase 18: Trabajo Práctico - DOM y Eventos</button>
+    <div class="panel">
+      <div class="ejercicio-clase-18">
+        <h2>1. Contador Interactivo</h2>
+        <p>Crea un contador que permita:</p>
+        <ul>
+          <li>Incrementar, decrementar y reiniciar el contador</li>
+          <li>Mostrar el valor actual en el DOM</li>
+          <li>Cambiar el color del número a rojo si es negativo y a verde si es positivo</li>
+        </ul>
+        <form id="formEjercicioClase18_1">
+          <input type="text" id="contador" value="0" readonly />
+          <button id="incrementar">Incrementar</button>
+          <button id="decrementar">Decrementar</button>
+          <button id="reiniciar">Reiniciar</button>
+        </form>
+      </div>
+
+      <div class="ejercicio-clase-18">
+        <h2>2. Lista de Tareas (To-Do List)</h2>
+        <p>Crea una aplicación de lista de tareas que permita:</p>
+        <ul>
+          <li>Añadir nuevas tareas mediante un formulario</li>
+          <li>Marcar tareas como completadas</li>
+          <li>Eliminar tareas individuales</li>
+          <li>Filtrar tareas por estado (todas, completadas, pendientes)</li>
+          <li>Guardar las tareas en localStorage</li>
+        </ul>
+      </div>
+
+      <div class="ejercicio-clase-18">
+        <h2>3. Validación de Formulario</h2>
+        <p>Crea un formulario de registro con los siguientes campos:</p>
+        <ul>
+          <li>Nombre (requerido, mínimo 3 caracteres)</li>
+          <li>Email (formato válido)</li>
+          <li>Contraseña (mínimo 8 caracteres, debe incluir mayúsculas, minúsculas y números)</li>
+          <li>Confirmación de contraseña (debe coincidir con la contraseña)</li>
+        </ul>
+        <p>
+          Valida los campos en tiempo real y muestra mensajes de error específicos debajo de cada campo cuando
+          corresponda. El botón de envío debe estar deshabilitado hasta que todos los campos sean válidos.
+        </p>
+      </div>
+
+      <div class="ejercicio-clase-18">
+        <h2>4. Filtro de Búsqueda en Tiempo Real</h2>
+        <p>Crea un buscador que filtre elementos según lo que el usuario escribe:</p>
+        <ul>
+          <li>Un campo de búsqueda que reaccione al evento 'input'</li>
+          <li>Una lista de elementos (por ejemplo, nombres de productos o contactos)</li>
+          <li>Los elementos que no coincidan con la búsqueda deben ocultarse suavemente</li>
+          <li>Mostrar un mensaje cuando no haya coincidencias</li>
+          <li>Incluir un botón para limpiar la búsqueda</li>
+          <li>La búsqueda debe ser insensible a mayúsculas/minúsculas</li>
+        </ul>
+      </div>
+
+      <div class="ejercicio-clase-18">
+        <h2>5. Contador de Caracteres para Textarea</h2>
+        <p>Crea un contador de caracteres para un campo de texto que:</p>
+        <ul>
+          <li>Muestre en tiempo real el número de caracteres escritos</li>
+          <li>Incluya un límite máximo de caracteres (ej: 280 como Twitter)</li>
+          <li>Cambie de color cuando se acerque al límite (amarillo a partir del 80% y rojo al 90%)</li>
+          <li>Muestre un mensaje cuando se alcance el límite</li>
+          <li>Bloquee la entrada de más caracteres al llegar al límite</li>
+          <li>Incluya un botón para borrar todo el texto</li>
+          <li>Muestre el contador en formato "caracteres usados / límite" (ej: 275/280)</li>
+          <li>Actualice dinámicamente mientras el usuario escribe</li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./js/index.js"></script>
     <script src="./js/clase-14/ejercicio1.js"></script>
     <script src="./js/clase-14/ejercicio2.js"></script>
@@ -571,5 +645,7 @@
     <script src="./js/clase-17/ejercicio2.js"></script>
     <script src="./js/clase-17/ejercicio3.js"></script>
     <script src="./js/clase-17/ejercicioTarea.js"></script>
+
+    <script src="./js/clase-18/ejercicio1.js"></script>
   </body>
 </html>

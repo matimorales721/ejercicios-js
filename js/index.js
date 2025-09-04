@@ -15,5 +15,5 @@ for (let i = 0; i < acordeon.length; i++) {
   });
 }
 
-let acordeon17 = document.getElementById("clase-17");
-acordeon17.click();
+// quiero que se abra el acordeón de la clase 18
+document.getElementById("clase-18").click();
