@@ -593,6 +593,26 @@
           Valida los campos en tiempo real y muestra mensajes de error específicos debajo de cada campo cuando
           corresponda. El botón de envío debe estar deshabilitado hasta que todos los campos sean válidos.
         </p>
+        <form id="formEjercicioClase18_3">
+          <label for="nombre-c18">Nombre:</label>
+          <input type="text" id="nombre-c18" />
+          <span class="error-message" id="error-nombre-c18"></span><br />
+
+          <label for="email-c18">Email:</label>
+          <input type="email" id="email-c18" />
+          <span class="error-message" id="error-email-c18"></span><br />
+
+          <label for="password-c18">Contraseña:</label>
+          <input type="password" id="password-c18" />
+          <span class="error-message" id="error-password-c18"></span><br />
+
+          <label for="confirm-password-c18">Confirmar Contraseña:</label>
+          <input type="password" id="confirm-password-c18" />
+          <span class="error-message" id="error-confirm-password-c18"></span><br />
+
+          <button type="submit" id="submit-c18" disabled>Registrarse</button>
+          <span class="message" id="message-registro-c18"></span><br />
+        </form>
       </div>
 
       <div class="ejercicio-clase-18">
@@ -659,5 +679,6 @@
 
     <script src="./js/clase-18/ejercicio1.js"></script>
     <script src="./js/clase-18/ejercicio2.js"></script>
+    <script src="./js/clase-18/ejercicio3.js"></script>
   </body>
 </html>

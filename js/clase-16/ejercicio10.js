@@ -6,7 +6,7 @@ formEjercicioBuclesFunciones10.addEventListener("submit", (e) => {
   let contraseñaAleatoria;
   let esValida = false;
 
-  while (!esValida) {
+  while (!esValida) { // el problema de este bucle es que puede demorar muchas iteraciones en encontrar una contraseña válida
     contraseñaAleatoria = generarContraseñaAleatoria();
     esValida = validarContraseña(contraseñaAleatoria);
   }
